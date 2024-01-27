@@ -71,6 +71,12 @@
 }
 
 .header-picture {
-    background-color: blue;
+    /* background-color: blue; */
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-picture img {
+    height: 300px;
 }
