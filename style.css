@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #1F2937;
+    height: 500px;
+}
+.header-container-first {
+    background-color: aquamarine;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.header-logo {
+    background-color: blueviolet;
+    width: 20%;
+}
+.menu {
+    background-color: blue;
+    width: 80%;
+}
+.header-container-second {
+    background-color:aqua;
+    height: 425px;
+}
