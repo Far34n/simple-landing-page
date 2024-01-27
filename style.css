@@ -7,7 +7,7 @@
     height: 500px;
 }
 .header-container-first {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 75px;
     width: 100%;
     display: flex;
@@ -15,8 +15,13 @@
     justify-content: flex-start;
 }
 .header-logo {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 20%;
+}
+.header-logo img {
+    height: 75px;
+    width: auto;
+    margin-left: 10px;
 }
 .menu {
     background-color: blue;
