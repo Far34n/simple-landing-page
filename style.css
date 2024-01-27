@@ -51,7 +51,7 @@
 }
 .sub-header-title {
     background-color: #1F2937;
-    width: 400px;
+    width: 600px;
 }
 .header-title .title {
     font-size: 36px;
@@ -78,5 +78,6 @@
     align-items: center;
 }
 .header-picture img {
-    height: 300px;
+    border-radius: 5px;
+    height: 350px;
 }
