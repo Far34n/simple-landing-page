@@ -37,6 +37,40 @@
     margin: 20px;
 }
 .header-container-second {
-    background-color:aqua;
+    /* background-color:aqua; */
     height: 425px;
+    display: flex;
+    flex-direction: row;
+}
+.header-title {
+    /* background-color: blueviolet; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-header-title {
+    background-color: #1F2937;
+    width: 400px;
+}
+.header-title .title {
+    font-size: 36px;
+    color: #F9FAF8;
+}
+.header-title .describe {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sub-header-title button {
+    margin-top: 5px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.header-picture {
+    background-color: blue;
+    width: 50%;
 }
