@@ -15,13 +15,22 @@
     justify-content: flex-start;
 }
 .header-logo {
-    /* background-color: blueviolet; */
+
     width: 20%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-logo h1 {
+    height: 75px;
+    color: #F9FAF8;
 }
 .header-logo img {
     height: 75px;
     width: auto;
     margin-left: 10px;
+    margin-right: 5px;
 }
 .menu {
     /* background-color: blue; */
