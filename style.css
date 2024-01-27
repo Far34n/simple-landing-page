@@ -88,19 +88,13 @@
 .body .title {
     font-size: 24px;
 }
-.body-container-first {
-    height: 500px;
-    
-}
-.body-container-second {
-    height: 500px;
-    background-color: aqua;
-}
+
 .body-container-third {
     height: 500px;
     background-color: blueviolet;
 }
 .body-container-first {
+    height: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -147,4 +141,22 @@
     width: 89%;
     margin: 5px;
     margin-top: 15px;
+}
+.body-container-second .big-text {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.body-container-second {
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-container-second .big-text p {
+    font-size: 24px;
 }
