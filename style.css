@@ -89,10 +89,7 @@
     font-size: 24px;
 }
 
-.body-container-third {
-    height: 500px;
-    background-color: blueviolet;
-}
+
 .body-container-first {
     height: 500px;
     display: flex;
@@ -159,4 +156,29 @@
 
 .body-container-second .big-text p {
     font-size: 24px;
+}
+
+.body-container-third {
+    
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-container-third .card {
+    background-color: #f30000;
+    height: 150px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.body-container-third .card-describe {
+    
+}
+.body-container-third button {
+    
 }
